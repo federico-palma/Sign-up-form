@@ -1,0 +1,55 @@
+:root {
+    --banner-text-color: #d3d3d3;
+    --banner-color: #0000007e;
+    --background-color: #f6f6f6;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("Assets/fabio-fistarol-VjA_PSSsOHI-unsplash.jpeg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title-container {
+    z-index: -1;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    margin-top: 200px;
+    background-color: var(--banner-color);
+
+}
+
+#title-container h1 {
+    color: #ffffff;
+    display: inline;
+    position: relative;
+    bottom: 60px;
+    font-size: 3.5rem;
+}
+
+#title-container img {
+    /* position: relative; */
+    display: inline;
+    filter: invert(100%);
+    width: 180px;
+}
+
+
+
+#main-section {
+    background-color: var(--background-color);
+    width: 60%;
+    margin: 0px;
+    margin-left: auto;
+    height: 100%;
+}
