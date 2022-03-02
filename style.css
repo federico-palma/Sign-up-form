@@ -1,12 +1,12 @@
 :root {
-    --banner-text-color: #d3d3d3;
     --banner-color: #0000007e;
-    --background-color: #f6f6f6;
+    --background-color: #56627c;
+    --form-accent-color: #353c4d;
+    --font-color: #e6e6e6;
 }
 
 * {
     box-sizing: border-box;
-    
 }
 
 body {
@@ -26,7 +26,6 @@ body {
     position: absolute;
     margin-top: 200px;
     background-color: var(--banner-color);
-
 }
 
 #title-container h1 {
@@ -38,18 +37,30 @@ body {
 }
 
 #title-container img {
-    /* position: relative; */
     display: inline;
     filter: invert(100%);
     width: 180px;
 }
 
-
-
 #main-section {
     background-color: var(--background-color);
+    color: var(--font-color);
     width: 60%;
+    height: 100%;
     margin: 0px;
     margin-left: auto;
-    height: 100%;
+    padding: 110px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#intro-text-container {
+    margin: 0px 40px;
+    font-size: 1.3rem;
+}
+
+#input-fields {
+    background-color: var(--form-accent-color);
+    width: 100%;
+    padding: 40px 20px;
 }
